@@ -1,0 +1,302 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+
+</head>
+<body>
+
+    <div>
+    <img src="http://127.0.0.1:8000/static/img/encabezado.jpg" alt="" width="950" height="150">
+    </div>
+    <body lang=ES-PE link=blue vlink="#954F72" style='word-wrap:break-word'>
+
+        <div class=WordSection1>     
+
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=661
+         style='width:495.75pt;border-collapse:collapse;border:none'>
+         <tr style='height:15.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          background:red;padding:0cm 2.8pt 0cm 2.8pt;height:15.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:white'>DATOS DE LA OCURRENCIA</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=56 nowrap style='width:42.3pt;border:solid black 1.0pt;border-top:
+          none;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt;background:#D9D9D9'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>LUGAR:</span></b></p>
+          </td>
+          <td width=340 nowrap colspan=5 style='width:9.0cm;border-top:none;border-left:
+          none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>{{lugar}}</span></b></p>          
+          </td>
+          <td width=47 nowrap colspan=3 style='width:35.45pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt;background:#D9D9D9'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>ÁREA:</span></b></p>
+          </td>
+          <td width=217 nowrap colspan=6 style='width:162.85pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>{{area}}</td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=56 nowrap style='width:42.3pt;border:solid black 1.0pt;border-top:
+          none;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt;background:#D9D9D9'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>FECHA:</span></b></p>
+          </td>
+          <td width=340 nowrap colspan=5 style='width:9.0cm;border-top:none;border-left:
+          none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>{{fecha}}</td>
+          <td width=47 nowrap colspan=3 style='width:35.45pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt ;background:#D9D9D9'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>HORA:</span></b></p>
+          </td>
+          <td width=217 nowrap colspan=6 style='width:162.85pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>{{hora}}</td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=132 nowrap colspan=2 style='width:99.1pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal><b><span lang=ES style='color:black'>TIPO DE EVENTO</span></b></p>
+          </td>
+          <td width=208 colspan=3 style='width:155.8pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>ACTO SUB-ESTÁNDAR</span></b></p> 
+          </td>
+          <td width=76 colspan=2 style='width:2.0cm;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'>{{subestandar1}}<b><span lang=ES
+          style='color:black'></span></b></p>
+          </td>
+          <td width=180 colspan=7 style='width:134.7pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>CONDICIÓN SUB-ESTÁNDAR</span></b></p> 
+          </td>
+          <td width=66 style='width:49.45pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'>{{subestandar2}}<b><span lang=ES
+          style='color:black'></span></b></p>
+          </td>
+
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=132 nowrap colspan=2 style='width:99.1pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal><b><span lang=ES style='color:black'>EMPRESA</span></b></p>
+          </td>
+          <td width=208 colspan=3 style='width:155.8pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>FAMESA EXPLOSIVOS</span></b></p> 
+          </td>
+          <td width=76 colspan=2 style='width:2.0cm;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'>{{empresa1}}<b><span lang=ES
+          style='color:black'></span></b></p>
+          </td>
+          <td width=180 colspan=7 style='width:134.7pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>TERCEROS</span></b></p> 
+          </td>
+          <td width=66 style='width:49.45pt;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'>{{empresa2}}<b><span lang=ES
+          style='color:black'></span></b></p>
+          </td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>DESCRIPCIÓN
+          DE LO SUCEDIDO:</span></b></p>
+          </td>
+         </tr>
+
+          <div class="box" style="justify-content: center">
+            <tr style='height:45.0pt'>
+                <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+                border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:45.0pt;text-align: justify'>
+                <p style="justify-content: center"> {{descripcion}}</p>
+                </td>
+            </tr>       
+        </div>   
+
+         <tr style='height:10.0pt'>
+          <td width=132 nowrap colspan=2 rowspan=3 style='width:99.1pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:10.0pt;background:#D9D9D9'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>RIESGO</span></b></p>
+          </td>
+          <td width=529 colspan=13 style='width:396.65pt;border:none;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:10.0pt'>
+          <p class=MsoNormal><span lang=ES>&nbsp;</span></p>
+          </td>
+         </tr>
+         <tr style='height:10.0pt'>
+          <td width=151 style='width:113.3pt;border:none;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:20.0pt'>
+          <p class=MsoNormal align=right style='text-align:right'><b><span lang=ES>BAJO</span></b></p>
+          </td>
+          <td width=28 style='width:21.25pt;border-top:none;padding:0cm 2.8pt 0cm 2.8pt;
+          height:20.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES>&nbsp;</span>{{riesgo1}}</b></p>
+          </td>
+          <td width=113 colspan=4 style='width:3.0cm;
+          padding:0cm 2.8pt 0cm 2.8pt;height:20.0pt'>
+          <p class=MsoNormal align=right style='text-align:right'><b><span lang=ES
+          style='color:black'>MEDIO</span></b></p>
+          </td>
+          <td width=28 colspan=2 style='width:21.25pt;border-top:none;border-left:none;
+          border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 2.8pt 0cm 2.8pt;
+          height:20.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES>&nbsp;</span>{{riesgo2}}</b></p>
+          </td>
+          <td width=104 colspan=2 style='width:78.0pt;border:none;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:20.0pt'>
+          <p class=MsoNormal align=right style='text-align:right'><b><span lang=ES>ALTO</span></b></p>
+          </td>
+          <td width=28 style='width:21.25pt;border-top:none;border-left:none;
+          border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 2.8pt 0cm 2.8pt;
+          height:20.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES>&nbsp;</span>{{riesgo3}}</b></p>
+          </td>
+          <td width=75 colspan=2 style='width:56.55pt;border:none;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:20.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:black'>&nbsp;</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:10.0pt'>
+          <td width=529 colspan=13 style='width:396.65pt;border-top:none;border-left:
+          none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:10.0pt'>
+          <p class=MsoNormal><span lang=ES>&nbsp;</span></p>
+          </td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal><b><span lang=ES style='color:black'>ACCIÓN INMEDIATA:</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:35.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:30.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>&nbsp;</span>{{accion}}</b></p>
+          </td>
+         </tr>
+         <tr style='height:35.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:35.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>&nbsp;</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none ;background:#D9D9D9 ;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>RECOMENDACIÓN:</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:35.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:35.0pt'>{{recomendacion}}</td>
+         </tr>
+         <tr style='height:35.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:30.0pt'></td>
+         </tr>
+
+
+         <tr style='height:25.0pt'>
+            <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+            border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+            <p class=MsoNormal align=left style='text-align:left'><b><span lang=ES>EVIDENCIA FOTOGRAFICA (OPCIONAL)</span></b></p>
+            </td>
+           </tr>
+  
+            <div class="box" style="justify-content: center">
+              <tr style='height:80.0pt'>
+                <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+                  border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:90.0pt;text-align: justify'>
+                <div>
+                    <center><img src="http://127.0.0.1:8000{{imagen.url}}" alt="" width="180" height="110"></center>
+                </div> 
+                  
+                </td>
+              </tr>       
+          </div>   
+
+
+
+
+
+         <tr style='height:15.0pt'>
+          <td width=661 nowrap colspan=15 style='width:495.75pt;border:solid black 1.0pt;
+          border-top:none;background:red;padding:0cm 2.8pt 0cm 2.8pt;height:15.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:white'>DATOS DEL REPORTANTE</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=495 nowrap colspan=11 style='width:371.6pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:black'>NOMBRES Y APELLIDOS</span></b></p>
+          </td>
+          <td width=166 nowrap colspan=4 style='width:124.15pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:black'>CÓDIGO/DNI</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:40.0pt'>
+          <td width=495 nowrap colspan=11 style='width:371.6pt;border:solid black 1.0pt;
+          border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:40.0pt'>{{nombre}}</td>
+          <td width=166 nowrap colspan=4 style=' text-align:center ;     width:124.15pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:40.0pt'>{{codigo}}</td>
+         </tr>
+         <tr style='height:25.0pt'>
+          <td width=495 nowrap colspan=11 style='width:371.6pt;border:solid black 1.0pt;
+          border-top:none;background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:black'>ÁREA DEL REPORTANTE / EMPRESA</span></b></p>
+          </td>
+          <td width=166 nowrap colspan=4 style='width:124.15pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          background:#D9D9D9;padding:0cm 2.8pt 0cm 2.8pt;height:25.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><b><span lang=ES
+          style='color:black'>FIRMA</span></b></p>
+          </td>
+         </tr>
+         <tr style='height:40.0pt'>
+            <td width=495 nowrap colspan=11 style='width:371.6pt;border:solid black 1.0pt;
+            border-top:none;padding:0cm 2.8pt 0cm 2.8pt;height:40.0pt'>{{areareportante}}</td>
+          <td width=166 nowrap colspan=4 style='width:124.15pt;border-top:none;
+          border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+          padding:0cm 2.8pt 0cm 2.8pt;height:40.0pt'>
+          <p class=MsoNormal align=center style='text-align:center'><span lang=ES>&nbsp;</span></p>
+          </td>
+         </tr>
+         <tr height=0>
+          <td width=56 style='border:none'></td>
+          <td width=76 style='border:none'></td>
+          <td width=151 style='border:none'></td>
+          <td width=28 style='border:none'></td>
+          <td width=28 style='border:none'></td>
+          <td width=57 style='border:none'></td>
+          <td width=19 style='border:none'></td>
+          <td width=9 style='border:none'></td>
+          <td width=19 style='border:none'></td>
+          <td width=9 style='border:none'></td>
+          <td width=42 style='border:none'></td>
+          <td width=62 style='border:none'></td>
+          <td width=28 style='border:none'></td>
+          <td width=9 style='border:none'></td>
+          <td width=66 style='border:none'></td>
+         </tr>
+        </table>
+        
+        <p class=MsoNormal><span lang=ES>&nbsp;</span></p>
+        
+        </div>
+
+</body>
+</html>

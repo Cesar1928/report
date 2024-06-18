@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Reporte Ocurrencia{% endblock %}
+<div class="columns">
+{% block content %}
+  <div class="column is-half">
+    <h1 class="is-size-3 mt-3">Iniciar Sesión</h1>
+    {% if form.errors %}
+      <p class="is-size-5">
+        Your username and password didn't match.
+        
+        Por favor intente de nuevo.
+      </p>
+    {% else %}
+      <p>
+        Por favor Famesino, usar el formulario de ingreso. 
+
+      </p>
+    {% endif %}
+    
+    <div class="login-form">
+      <form action="{% url 'login' %}" method="post">
+        {% load widget_tweaks %}
+        {% for field in form %}
+          {{field.label_tag}}
+          {% render_field field class+="input mt-2" %}
+        {% endfor %}
+        {% csrf_token %}
+        <input type="submit" value="Iniciar Sesión" class="button mt-2 is-link">
+        <input type="hidden" name="next" value="{{ next }}" />
+      </form>
+    </div>
+</div>
+  {% endblock %}
+</div>

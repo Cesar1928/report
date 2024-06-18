@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Contraseña Incorrecta{% endblock %}
+{% block content %}
+<div class="column is-three-quarters">
+  
+  <h1>Contraseña Incorrecta</h1>
+  <p>
+    Por favor, coloque contraseña correcta.
+    <a href="{% url 'login' %}">Tu puedes intentar iniciar sesión de nuevo</a>.
+  </p>
+</div>
+{% endblock %}
